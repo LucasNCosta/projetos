@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@media screen and (min-width: 1000px){
+    body, html{
+        position: relative;
+        height: 95vh;
+        width: 95vw;
+    }
+    body{
+        height: 100px;
+    }
+    main{
+        width: 892px;
+        height: 500px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -0%);
+    }
+
+    h1{
+        margin-bottom: 40px;
+    }
+    p{
+        margin-bottom: 40px;
+        line-height: 25px;
+    }
+    a{
+        width: 200px;
+        text-align: center;
+    }
+    img{
+        padding: 20px;
+    }
+
+    .sedans{
+        display: inline-block;
+        width: 300px;
+        height: 500px;
+        margin-right: -1%;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .suvs{
+        display: inline-block;
+        width: 300px;
+        height: 500px;
+        margin-right: -1%;
+    }
+
+    .luxury{
+        display: inline-block;
+        width: 300px;
+        height: 500px;
+        margin-right: -1%;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+}

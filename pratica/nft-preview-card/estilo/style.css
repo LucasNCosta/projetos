@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root{
+    --font1: 'Outfit', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font1);
+}
+body{
+    background-color: rgb(13, 25, 43);
+    position: relative;
+    height: 94vh;
+}
+main{
+    background-color: rgb(20, 37, 61);
+    height: 680px;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.39);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.imagem > img{/*nft*/
+    width: 350px;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.imagem>img:hover{
+    cursor: pointer;
+}
+.imagem > div{/*view*/
+    position: absolute;
+    top: 4%;
+    left: 6%;
+    height: 354px;
+    width: 350px;
+    background-color: hsl(178, 100%, 50% ,40%);
+    opacity: 0;
+}
+.imagem > div:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.imagem > div > img{
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+div.texto > h1{
+    text-align: left;
+    color: white;
+    margin: 20px 0px;
+}
+.texto>h1:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
+div.texto > p{
+    color: rgb(122, 141, 168);
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 0px;
+}
+div.texto > p.preco{
+    color: #00FFF8;
+    display: inline-block;
+    text-align: left;
+    font-weight: bolder;
+}
+div.texto > p.tempo{
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 100px;
+}
+div.texto > div.linha{
+    background-color: rgb(47, 65, 91);
+    height: 2px;
+}
+div.texto > img{
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    margin: 23px 10px;
+}
+div.texto > p.criador{
+    margin: 25px 0px 0px 80px;
+}
+div.texto > p.criador > span{
+    color: white;
+}
+.texto>.criador>span:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px){
+    main{
+      width: 1200px;
+      height: 700px;
+      transform: translate(-50%, 8%);
+    }
+    main > h1{
+      width: 300px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    main > p{
+      position: absolute;
+      width: 500px;
+      margin: 0px;
+      top: 20%;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+    section{
+      display: inline-block;
+    }
+    main > section:nth-child(3){/*supervisor*/
+      position: absolute;
+      top: 48%;
+      left: 3%;
+    }
+    main > section:nth-child(4){/*team builder*/
+      background-color: var(--cor1);
+      position: absolute;
+      top: 31%;
+      left: 34%;
+    }
+    main > section:nth-child(5){/*karma*/
+      background-color: var(--cor3);
+      position: absolute;
+      top: 65%;
+      left: 34%;
+    }
+    main > section:nth-child(6){/*calculator*/
+      background-color: var(--cor4);
+      position: absolute;
+      top: 48%;
+      left: 66%;
+    }
+  }

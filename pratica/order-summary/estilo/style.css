@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body, html{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.432);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body{
+    background-color: #D6E1FF;
+}
+.imagem{
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    height: 180px;
+}
+.texto > h1{
+    color: rgb(31, 47, 86);
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+}
+.texto > p{
+    color: rgb(114, 128, 167);
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+}
+
+.musica{
+    background-color: rgba(224, 232, 255, 0.384);
+    width: 320px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.musica > img{
+    position: absolute;
+    margin: 5px;
+    margin-left: 20px;
+}
+.musica > p{
+    color: rgb(31, 47, 86);
+    margin-left: 90px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+.musica > .preco{
+    color: rgb(114, 128, 167);
+}
+.musica > .change{
+    color: blue;
+    position: relative;
+    width: 65px;
+    left: 50%;
+    margin: -43px;
+    margin-left: 80px;
+    text-decoration: underline;
+}
+.musica > .change:hover{
+    cursor: pointer;
+}
+
+.botao{
+    background-color: rgb(56, 41, 224);
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0px auto;
+    margin-top: 100px;
+    box-shadow: 0px 15px 25px 5px rgba(0, 0, 0, 0.151);
+    width: 320px;
+    height: 50px;
+    border-radius: 10px;
+}
+.botao:hover{
+    cursor: pointer;
+}
+.botao > p{
+    padding: 15px;
+    font-weight: bolder;
+}
+.cancel{
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    margin: 0px auto;
+    margin-top: 10px;
+    width: 320px;
+    height: 50px;
+}
+.cancel:hover{
+    cursor: pointer;
+}
+.cancel > p{
+    color: rgb(114, 128, 167);
+    padding: 15px;
+    font-weight: bolder;
+
+}
+
+@media screen and (min-width: 1000px){
+    body{
+        background: #D6E1FF url(../images/pattern-background-desktop.jpg) top center no-repeat;
+        background-size: cover;
+    }
+}
+/*- Mobile: 375px
+- Desktop: 1440px*/

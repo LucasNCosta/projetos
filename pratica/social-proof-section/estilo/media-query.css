@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px) {
+    main{
+      background-color: transparent;
+      top: 32%;
+      height: 650px;
+      width: 1100px;
+    }
+    main > h1{
+      font-size: 2.5em;
+      text-align: left;
+      width: 400px;
+      padding-top: 70px;
+    }
+    main > p{
+      text-align: left;
+      width: 450px;
+      padding-left: 60px;
+    }
+  
+    section.star{
+      position: absolute;
+      top: 10%;
+    }
+    section.star > div:nth-child(2){
+      margin-top: 20px;
+      margin-left: 570px;
+    }
+    section.star > div:nth-child(3){
+      margin-top: 20px;
+      margin-left: 640px;
+    }
+    .rated{
+      margin-left: 500px;
+      height: 50px;
+      width: 350px;
+    }
+    .rated > img{
+      float: left;
+      margin-left: 5px;
+      display: inline;
+    }
+    .rated > img:nth-child(1){
+      margin-left: 20px;
+    }
+    .rated > p{
+      display: inline-block;
+      position: absolute;
+      margin-top: 20px;
+      margin-left: -90px;
+      text-align: center;
+    }
+  
+    section.coment{
+      position: relative;
+    }
+    section.coment > div#colton{
+      position: absolute;
+      left: 0%;
+    }
+    section.coment > div#irene{
+      position: absolute;
+      margin-top: 20px;
+      left: 32.5%;
+    }
+    section.coment > div#anne{
+      position: absolute;
+      margin-top: 40px;
+      left: 65%;
+    }
+    
+    .comentario{
+      display: inline-block;
+      margin-left: 30px;
+    }
+  
+    .fundo1, .fundo2{
+      display: none;
+    }
+    .desktop1, .desktop2{
+      display: block;
+    }
+  }

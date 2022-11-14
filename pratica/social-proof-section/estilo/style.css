@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+/* font-family: 'League Spartan', sans-serif; */
+
+:root{
+    --cor1: rgb(80, 32, 80);
+    --cor2: rgb(238, 104, 164);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+  }
+  main{
+    width: 375px;
+    background-color: transparent;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+  }
+  p{
+    font-size: 15px;
+  }
+
+  .fundo1{
+    width: 96.6vw;
+    height: 50vh;
+    background-color: white;
+    background-image: url(../images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .fundo2{
+    width: 96.6vw;
+    height: 50vh;
+    margin-top: 550px;
+    background-color: white;
+    background-image: url(../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  .desktop1{
+    display: none;
+    position: absolute;
+    top: 0%;
+    background-color: transparent;
+    background-image: url(../images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: auto;
+    width: 36%;
+    height: 370px;
+  }
+  .desktop2{
+    display: none;
+    float: right;
+    position: absolute;
+    top: 10.3%;
+    left: 34.8%;
+    background-color: transparent;
+    background-image: url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 65.2%;
+    height: 685px;
+  }
+
+  main > h1{
+    font-weight: bolder;
+    text-align: center;
+    color: var(--cor1);
+    padding: 50px 60px 30px 60px;
+  }
+  main > p{
+    text-align: center;
+    color: rgb(147, 123, 146);
+    line-height: 20px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+  }
+
+  .rated{
+    background-color: rgb(247, 242, 247);
+    color: var(--cor1);
+    text-align: center;
+    font-weight: bold;
+    width: 325px;
+    height: 80px;
+    margin-left: 23px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .rated > img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .comentario{
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 10px;
+    width: 325px;
+    height: 220px;
+    margin-left: 23px;
+    margin-bottom: 20px;
+  }
+  .comentario > img{
+    display: inline;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .comentario > h1{
+    display: inline;
+    position: absolute;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  .comentario > .verificado{
+    color: var(--cor2);
+    font-size: 18px;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -20px;
+  }
+  .comentario > p{
+    line-height: 20px;
+    margin-top: 20px;
+    margin-right: 45px;
+    margin-left: 45px;
+  }

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@media screen and (min-width: 1440px) {
+    main{
+        width: 700px;
+        height: 500px;
+        top: 40%;
+    }
+    .quadro1{
+        height: 250px;
+    }
+    .quadro1 > h1{
+        margin-left: 50px;
+        padding-top: 50px;
+    }
+    .quadro1 > .destaque1{
+        margin-left: 50px;
+    }
+    .quadro1 > p{
+        margin-left: 50px;
+        margin-right: 90px;
+    }
+
+    .quadro2{
+        width: 350px;
+        height: 250px;
+        border-radius: 0px 0px 0px 10px;
+    }
+    .quadro2 > h1{
+        margin-left: 30px;
+        padding-top: 40px;
+    }
+    .quadro2 > .destaque2{
+        margin-left: 30px;
+    }
+    .quadro2 > p{
+        margin-left: 30px;
+    }
+    .quadro2 > button{
+        width: 300px;
+        margin-top: 25px;
+    }
+    
+    .quadro3{
+        width: 350px;
+        height: 250px;
+        float: right;
+        margin-top: -250px;
+        border-radius: 0px 0px 10px 0px;
+    }
+    .quadro3 > h1{
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+    .quadro3 > p{
+        margin-left: 30px;
+        margin-right: 60px;
+    }
+    .quadro3 > p:nth-child(4){
+        margin-right: 50px;
+    }
+}

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (min-width:1200px){
+    main{
+        width: 900px;
+        height: 350px;
+    }
+    .filtro{
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 477px;
+        width: 423px;
+        height: 350px;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .imagem{
+        float: right;
+    }
+    .imagem > picture > img{
+        border-radius: 0px 10px 10px 0px;
+        height: 350px;
+        width: 423px;
+    }
+
+    .titulo{
+        text-align: left;
+        margin: 40px 50px;
+    }
+
+    .corpo{
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 450px;
+    }
+
+    .status > p{
+        display: inline-block;
+        margin-right: 30px;
+    }
+}
