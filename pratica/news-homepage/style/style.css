@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+FALTA COR
+FALTA NAV
+FALTA HOVER
+FALTA MQ
+
+
+*{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    position: relative;
+    height: 100vh;
+  }
+  main{
+    background-color: gray;
+    position: absolute;
+    width: 375px;
+    height: 1730px;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+  main > img{/*logo*/
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+  main > picture > img{/*image web*/
+    width: 350px;
+    margin-left: 12px;
+  }
+
+  .future{
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+  }
+  .future > h1{
+    font-weight: 800;
+    font-size: 2em;
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .future > p{
+    width: 330px;
+    margin-bottom: 20px;
+  }
+  .future > button{
+    letter-spacing: 2px;
+    height: 50px;
+    width: 150px;
+    background-color: darkred;
+    color: white;
+    border: none;
+  }
+  .destaque{
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .destaque > h1{
+    color: darkgoldenrod;
+    font-size: 1.5em;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  .destaque > h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: white;
+    margin-left: 15px;
+  }
+  .destaque > p{
+    color: lightgray;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    width: 290px;
+  }
+  .destaque > p:nth-child(9){/*espacamento embaixo*/
+    padding-bottom: 30px;
+  }
+  .destaque > hr{
+    background-color: rgba(168, 168, 168, 0.192);
+    width: 300px;
+    height: 1px;
+    border: 0px solid transparent;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  .numeros{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .numeros > div > img{
+    display: inline-block;
+    width: 100px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .numeros > div > h1{
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+    font-size: 2em;
+    
+  }
+  .numeros > div > h2{
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .numeros > div > p{
+    display: inline-block;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 20px;
+    line-height: 20px;
+    width: 200px;
+  }
+
+/* 
+- Mobile: 375px
+- Desktop: 1440px
+
+
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+
+### Neutral
+
+Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%)
+
+*/
