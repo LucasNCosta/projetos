@@ -10,30 +10,23 @@ FALTA MQ
 }
 
 *{
-    font-size: 15px;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 body{
-    position: relative;
-    height: 1730px;
-    background-color: lightgray;
-  }
+  position: relative;
+  height: 1730px;
+  background-color: lightgray;
+}
 
-  main > label > img{ /* COMEÇO DO NAV */
+  main > .menu-icone{ /* COMEÇO DO NAV */
     display: inline-block;
     position: absolute;
-    top: 45px;
-    left: 70%;
-  }
-  main > input{
-    display: inline-block;
-    position: absolute;
-    top: 45px;
-    left: 70%;
-    opacity: 0;
+    top: 17px;
+    left: 65%;
   }
   .menu{
     display: none;
@@ -206,8 +199,3 @@ body{
     line-height: 20px;
     width: 200px;
   }
-
-/* 
-- Mobile: 375px
-- Desktop: 1440px
-*/
