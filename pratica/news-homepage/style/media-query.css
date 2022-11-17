@@ -80,7 +80,7 @@
     .menu > nav{
       margin: 30px 0px 0px 0px;
     }
-    .menu > nav > p{
+    .menu > nav > ul > li{
       display: inline-block;
       margin: 0px 15px;
     }
