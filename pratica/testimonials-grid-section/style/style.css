@@ -25,7 +25,7 @@ main{
     height: 1800px;
     width: 375px;
     position: absolute;
-    background-color: white;
+    background-color: transparent;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
