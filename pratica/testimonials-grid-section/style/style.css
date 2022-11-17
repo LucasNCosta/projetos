@@ -16,12 +16,88 @@
     --lighishBlue: rgb(236, 242, 248);
 }
 
-/* 
-- Mobile: 375px
-- Desktop: 1440px
-
-Note for text colors:
-
-1. "Verified Graduate" has the same color as the person's name with 50% opacity
-2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity 
-*/
+body{
+    width: 96vw;
+    height: 1800px;
+    position: relative;
+}
+main{
+    height: 1800px;
+    width: 375px;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 15px 15px 5px rgba(0, 0, 0, 0.157);
+}
+section > img{
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    width: 40px;
+    top: 45px;
+    left: 20px;
+}
+section > h1{
+    color: var(--lighishBlue);
+    padding-top: 0px;
+    padding-left: 80px;
+}
+section > h2{
+    color: var(--gray);
+    opacity: 50%;
+    margin-top: 2px;
+    padding-left: 80px;
+}
+section > h3{
+    color: var(--lighishBlue);
+    width: 320px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+section > p{
+    color: var(--gray);
+    opacity: 70%;
+    width: 320px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.daniel{
+    background: url(../images/bg-pattern-quotation.svg) no-repeat 185px 0px ;
+    background-size: 130px;
+}
+.daniel{
+    background-color: var(--violet);
+}
+.jonathan{
+    background-color: var(--grayishBlue);
+}
+.jeanette{
+    background-color: rgb(241, 240, 240);
+}
+.patrick{
+    background-color: var(--blackishBlue);
+}
+.kira{
+    background-color: rgb(241, 240, 240);
+}
+#branco > h1{
+    color: var(--blackishBlue);
+}
+#branco > h2{
+    color: var(--blackishBlue);
+}
+#branco > h3{
+    color: var(--blackishBlue);
+}
+#branco > p{
+    color: var(--blackishBlue);
+}

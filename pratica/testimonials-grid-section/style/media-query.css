@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@media screen and (min-width: 1000px){
+    body{
+        height: 800px;
+    }
+    main{
+        background-color: white;
+        height: 700px;
+        width: 1410px;
+    }
+    section{
+        position: absolute;
+        width: 375px;
+    }
+    .daniel{
+        top: 0px;
+        left: 10px;
+        width: 600px;
+        height: 340px;
+    }
+    .daniel > h1, h2{
+        font-size: 15px;
+    }
+    .daniel > h3{
+        width: 540px;
+    }
+    .daniel > p{
+        font-size: 15px;
+        width: 540px;
+    }
+
+    .jonathan{
+        top: 0px;
+        left: 630px;
+        height: 340px;
+    }
+    .jonathan > h1, h2{
+        font-size: 15px;
+    }
+    .jonathan > p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .jeanette{
+        top: 360px;
+        left: 10px;
+        height: 300px;
+    }
+    .jeanette > h1, h2{
+        font-size: 15px;
+    }
+    .jeanette > p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .patrick{
+        top: 360px;
+        left: 400px;
+        height: 300px;
+        width: 600px;
+    }
+    .patrick > h1, h2, p{
+        font-size: 15px;
+    }
+    .patrick > h3{
+        width: 550px;
+    }
+    .patrick > p{
+        width: 550px;
+    }
+
+    .kira{
+        top: 0px;
+        left: 1020px;
+        height: 660px;
+    }
+    .kira > h1, h2, p{
+        font-size: 15px;
+    }
+    .kira > p{
+        line-height: 25px;
+    }
+}

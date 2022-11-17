@@ -7,79 +7,11 @@
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <title>Testimonials Grid</title>
     <link rel="stylesheet" href="style/style.css">
-    <style>
-        body{
-            width: 96vw;
-            height: 800px;
-            position: relative;
-            background-color: gray;
-        }
-        main{
-            height: 1800px;
-            width: 375px;
-            position: absolute;
-            background-color: white;
-            /* top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%); */
-        }
-        section{
-            width: 100%;
-            margin-top: 20px;
-            border-radius: 10px;
-        }
-        section > img{
-            border-radius: 50%;
-            border: 1px solid white;
-            position: relative;
-            width: 40px;
-            top: 45px;
-            left: 20px;
-        }
-        section > h1{
-            padding-top: 0px;
-            padding-left: 80px;
-        }
-        section > h2{
-            margin-top: 2px;
-            padding-left: 80px;
-        }
-        section > h3{
-            width: 320px;
-            font-size: 20px;
-            margin-top: 20px;
-            margin-left: 20px;
-        }
-        section > p{
-            width: 320px;
-            margin-left: 20px;
-            margin-top: 20px;
-            padding-bottom: 40px;
-        }
-        section:nth-child(1){
-            background: url(images/bg-pattern-quotation.svg) no-repeat 185px 0px ;
-            background-size: 130px;
-        }
-        section:nth-child(1){
-            background-color: red;
-        }
-        section:nth-child(2){
-            background-color: blue;
-        }
-        section:nth-child(3){
-            background-color: green;
-        }
-        section:nth-child(4){
-            background-color: purple;
-        }
-        section:nth-child(5){
-            background-color: yellow;
-        }
-    </style>
+    <link rel="stylesheet" href="style/media-query.css">
 </head>
 <body>
     <main>
-        <section>
+        <section class="daniel">
             <img src="images/image-daniel.jpg">
             <h1>Daniel Clifford</h1>
             <h2>Verified Graduate</h2>
@@ -87,7 +19,7 @@
             <p>“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</p>
         </section>
         
-        <section>
+        <section class="jonathan">
             <img src="images/image-jonathan.jpg">
             <h1>Jonathan Walters</h1>
             <h2>Verified Graduate</h2>
@@ -95,7 +27,7 @@
             <p>“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. ”</p>
         </section>
         
-        <section>
+        <section class="jeanette" id="branco">
             <img src="images/image-jeanette.jpg">
             <h1>Jeanette Harmon</h1>
             <h2>Verified Graduate</h2>
@@ -103,7 +35,7 @@
             <p>“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”</p>
         </section>
         
-        <section>
+        <section class="patrick">
             <img src="images/image-patrick.jpg">
             <h1>Patrick Abrams</h1>
             <h2>Verified Graduate</h2>
@@ -113,7 +45,7 @@
             </p>
         </section>
         
-        <section>
+        <section class="kira" id="branco">
             <img src="images/image-kira.jpg">
             <h1>Kira Whittle</h1>
             <h2>Verified Graduate</h2>
