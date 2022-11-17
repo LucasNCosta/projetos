@@ -28,6 +28,13 @@
         font-size: 15px;
         width: 540px;
     }
+    .daniel{
+        background: url(../images/bg-pattern-quotation.svg) no-repeat 420px 0px ;
+        background-size: 130px;
+    }
+    .daniel{
+        background-color: var(--violet);
+    }
 
     .jonathan{
         top: 0px;
