@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.storage > .barra-externa{
+    height: 21px;
+    width: 300px;
+    background-color: rgb(12, 18, 44);
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.storage > .barra-externa > .barra-interna{
+    background-image: linear-gradient(to right, rgb(255, 163, 153), rgb(255, 77, 151));
+    height: 16px;
+    width: 240px;
+    margin-top: 2px;
+    margin-left: 3px;
+    border-radius: 10px;
+}
+.storage > .barra-externa > .barra-interna > .circle{
+    background-color: white;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    margin-left: 225px;
+}
