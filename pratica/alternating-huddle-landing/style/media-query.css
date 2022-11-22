@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@media screen and (min-width: 1000px){
+    body{
+        width: 98vw;
+        height: 100vh;
+    }
+    header > .logo1{
+        margin-left: 80px;
+    }
+    header > h1{
+        text-align: left;
+        width: 400px;
+        margin-left: 80px;
+    }
+    header > p{
+        text-align: left;
+        margin-left: 35px;
+        width: 540px;
+    }
+    header > .botao1{
+        margin-right: 80px;
+    }
+    header > .botao2{
+        padding: 10px;
+        width: 220px;
+        margin-left: 80px;
+    }
+    header > .mockups{
+        display: inline-block;
+        position: absolute;
+        width: 700px;
+        top: 70px;
+        left: 530px;
+    }
+
+    main{
+        height: 1000px;
+    }
+    main > section{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1000px;
+    }
+    main > section > h1{
+        margin-top: 80px;
+        margin-left: 100px;
+        text-align: left;
+    }
+    main > section > p{
+        width: 500px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    main > section:nth-child(1) > img{
+        float: right;
+    }
+    main > section:nth-child(2){
+        top: 1050px;
+    }
+    main > section:nth-child(2) > img{
+        float: left;
+    }
+    main > section:nth-child(2) > h1{
+        margin-left: 450px;
+    }
+    main > section:nth-child(2) > p{
+        margin-left: 400px;
+    }
+    main > section:nth-child(3){
+        top: 1370px;
+    }
+    main > section:nth-child(3) > img{
+        float: right;
+    }
+
+    .flutuando{
+        width: 600px;
+    }
+
+    footer > section{
+        width: 500px;
+    }
+    footer > section:nth-child(2){
+        position: absolute;
+        top: 2050px;
+        left: 500px;
+        width: 400px;
+    }
+    footer > section:nth-child(2) > ul{
+        column-count: 2;
+    }
+    footer > .icones{
+        display: inline-block;
+        position: absolute;
+        top: 2050px;
+        left: 1000px;
+    }
+    footer > p{
+        margin-top: 50px;
+        margin-left: 800px;
+    }
+}
