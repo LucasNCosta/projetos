@@ -10,15 +10,15 @@
     header > h1{
         text-align: left;
         width: 400px;
-        margin-left: 80px;
+        margin-left: 100px;
     }
     header > p{
         text-align: left;
-        margin-left: 35px;
+        margin-left: 55px;
         width: 540px;
     }
     header > .botao1{
-        margin-right: 80px;
+        margin-right: 100px;
     }
     header > .botao2{
         padding: 10px;
@@ -79,6 +79,7 @@
     }
 
     footer > section{
+        margin-left: 50px;
         width: 500px;
     }
     footer > section:nth-child(2){
