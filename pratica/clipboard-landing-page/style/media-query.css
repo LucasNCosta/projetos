@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@media screen and (min-width: 1000px){
+    body{
+        width: 92vw;
+    }
+    main{
+        width: 1000px;
+    }
+    button{
+        width: 200px;
+    }
+    .historia > h1{
+        width: 1000px;
+        margin-left: 0;
+    }
+    .historia > p{
+        width: 650px;
+        margin-left: 170px;
+    }
+    .historia > .botao1{
+        margin-left: 270px;
+    }
+    .historia > .botao2{
+        margin-bottom: 70px;
+    }
+
+    .track > h1{
+        width: 1000px;
+        margin-left: 0;
+    }
+    .track > p{
+        width: 690px;
+        margin-left: 160px;
+    }
+
+    .quick > img{
+        display: inline-block;
+        position: absolute;
+        width: 550px;
+    }
+    .quick > div{
+        display: inline-block;
+        margin-left: 550px;
+    }
+    .quick > div:nth-child(2){
+        margin-top: 0px;
+    }
+    .quick > div:nth-child(3){
+        margin-top: 0px;
+    }
+    .quick > div:nth-child(4){
+        margin-top: 0px;
+    }
+    .quick > div > h1{
+        text-align: left;
+        margin-left: 50px;
+    }
+    .quick > div > p{
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .access > p{
+        width: 740px;
+        margin-left: 130px;
+    }
+    .access > img{
+        width: 900px;
+        margin-left: 50px;
+    }
+
+    .super > h1{
+        margin-top: 0px;
+    }
+
+    .informacoes > div{
+        display: inline-block;
+        position: absolute;
+        width: 300px;
+    }
+    .informacoes > div > img{
+        height: 30px;
+        margin-left: 130px;
+    }
+    .informacoes > div > h1{
+        font-size: 1.2em;
+    }
+    .informacoes > div > p{
+        font-size: 13px;
+    }
+    .informacoes > div:nth-child(1){
+        left: 0px;
+    }
+    .informacoes > div:nth-child(2){
+        left: 360px;
+    }
+    .informacoes > div:nth-child(3){
+        left: 680px;
+    }
+
+    .imagens{
+        margin-top: 400px;
+        margin-bottom: 50px;
+    }
+    .imagens > img{
+        display: inline-block;
+        width: 150px;
+    }
+    .imagens > img:nth-child(1){
+        margin-left: 35px;
+    }
+    .imagens > img:nth-child(2){
+        margin-left: 35px;
+    }
+    .imagens > img:nth-child(3){
+        margin-left: 35px;
+    }
+    .imagens > img:nth-child(4){
+        margin-left: 35px;
+    }
+    .imagens > img:nth-child(5){
+        margin-left: 35px;
+        margin-bottom: 70px;
+    }
+
+    .clipboard > p{
+        width: 720px;
+        margin-left: 125px;
+    }
+    .clipboard > .botao3{
+        margin-left: 270px;
+    }
+    .clipboard > .botao4{
+        margin-bottom: 70px;
+    }
+
+    .lista{
+        background-color: lightgray;
+        padding: 50px 0px;
+    }
+    .lista > img{
+        width: 50px;
+        left: 150px;
+    }
+    .lista > ul{
+        width: 450px;
+        column-count: 3;
+        padding-top: 0px;
+        margin-left: 250px;
+    }
+    .lista > ul > li{
+        text-align: left;
+        width: 150px;
+    }
+
+    .icones{
+        text-align: right;
+        transform: translateY(-110px);
+        margin-right: 100px;
+        margin-bottom: -100px;
+    }
+}
