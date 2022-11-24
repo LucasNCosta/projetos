@@ -7,30 +7,221 @@
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', Arial, sans-serif;
 }
+h1{
+    color: rgb(76, 84, 93);
+}
 p{
+    color: rgb(159, 171, 178);
     font-size: 18px;
+}
+button{
+    color: white;
+    width: 300px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+}
+button:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+body{
+    position: relative;
+}
+main{
+    background-color: white;
+    width: 375px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.fundo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.historia > img{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.historia > h1{
+    text-align: center;
+    width: 260px;
+    margin: 330px 50px 0px 50px;
+}
+.historia > p{
+    text-align: center;
+    width: 345px;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.historia > .botao1{
+    background-color: rgb(38, 186, 164);
+    box-shadow: 0px 2px 2px 0px rgb(26, 127, 112);
+    margin-left: 40px;
+}
+.historia > .botao2{
+    background-color: rgb(97, 115, 255);
+    box-shadow: 0px 2px 2px 0px rgb(70, 84, 185);
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+
+.track > h1{
+    text-align: center;
+    width: 250px;
+    margin-left: 50px;
+}
+.track > p{
+    text-align: center;
+    width: 340px;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    margin-left: 15px;
+}
+
+.quick > img{
+    margin-left: 20px;
+    width: 330px;
+}
+.quick > div > h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.quick > div > p{
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.access{
+    margin-top: 200px;
+}
+.access > h1{
+    text-align: center;
+    padding: 0px 50px;
+}
+.access > p{
+    text-align: center;
+    padding: 0px 20px;
+    margin-bottom: 80px;
+}
+.access > img{
+    width: 350px;
+    margin: 0px 10px;
+}
+
+.super > h1{
+    text-align: center;
+    padding: 0px 50px;
+    margin-top: 80px;
+}
+.super > p{
+    text-align: center;
+    padding: 0px 20px;
+    margin-bottom: 80px;
+}
+
+.informacoes > div:nth-child(3){
+    padding-bottom: 100px;
+}
+.informacoes > div > img{
+    margin-left: 170px;
+    margin-bottom: 20px;
+}
+.informacoes > div > h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.informacoes > div > p{
+    text-align: center;
+    padding: 0px 10px;
+    margin-bottom: 60px;
+}
+
+.imagens > img{
+    display: block;
+    margin-bottom: 70px;
+}
+.imagens > img:nth-child(1){
+    margin-left: 100px;
+}
+.imagens > img:nth-child(2){
+    margin-left: 115px;
+}
+.imagens > img:nth-child(3){
+    margin-left: 105px;
+}
+.imagens > img:nth-child(4){
+    margin-left: 120px;
+}
+.imagens > img:nth-child(5){
+    margin-left: 125px;
+    margin-bottom: 200px;
+}
+
+.clipboard > h1{
+    text-align: center;
+    padding: 15px 50px;
+}
+.clipboard > p{
+    text-align: center;
+    padding: 0px 20px;
+    margin-bottom: 40px;
+}
+.clipboard > .botao3{
+    background-color: rgb(38, 186, 164);
+    box-shadow: 0px 2px 2px 0px rgb(26, 127, 112);
+    margin-left: 40px;
+}
+.clipboard > .botao4{
+    background-color: rgb(97, 115, 255);
+    box-shadow: 0px 2px 2px 0px rgb(70, 84, 185);
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+
+.lista > img{
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.lista > ul{
+    padding-top: 150px;
+    list-style: none;
+}
+.lista > ul >li{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.lista > ul > li:hover{
+    cursor: pointer;
+    color: rgb(38, 186, 164);
+}
+
+.icones{
+    text-align: center;
+}
+.icones > svg{
+    margin: 20px 10px 50px 10px;
+    fill: #4C545C;
+}
+.icones > svg:hover{
+    cursor: pointer;
+    fill: rgb(38, 186, 164);
+    transition: .3s;
 }
 
 /*
-- Mobile: 375px
 - Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Strong Cyan: hsl(171, 66%, 44%)
-- Light Blue: hsl(233, 100%, 69%)
-
-### Neutral
-
-- Dark Grayish Blue: hsl(210, 10%, 33%)
-- Grayish Blue: hsl(201, 11%, 66%)
-
-## Icons
-
-For the social icons, you can use the SVGs provided or a font icon library. Some font icon library suggestions can be found below:
-
-- [Font Awesome](https://fontawesome.com)
-- [IcoMoon](https://icomoon.io)
-- [Ionicons](https://ionicons.com) */
+ */
