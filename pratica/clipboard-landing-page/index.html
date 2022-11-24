@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard Landing Page</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+        body{
+            position: relative;
+        }
+        main{
+            background-color: gray;
+            width: 375px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        button{
+            color: white;
+            width: 300px;
+            padding: 10px 40px;
+            border-radius: 30px;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        .fundo{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .historia > img{
+            position: absolute;
+            top: 150px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .historia > h1{
+            text-align: center;
+            width: 260px;
+            margin: 330px 50px 0px 50px;
+        }
+        .historia > p{
+            text-align: center;
+            width: 345px;
+            line-height: 26px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            margin-left: 10px;
+        }
+        .historia > .botao1{
+            background-color: green;
+            box-shadow: 0px 2px 2px 0px rgb(0, 82, 0);
+            margin-left: 40px;
+        }
+        .historia > .botao2{
+            background-color: blue;
+            box-shadow: 0px 2px 2px 0px rgb(1, 1, 134);
+            margin-left: 40px;
+            margin-bottom: 200px;
+        }
+
+        .track > h1{
+            text-align: center;
+            width: 250px;
+            margin-left: 50px;
+        }
+        .track > p{
+            text-align: center;
+            width: 340px;
+            line-height: 25px;
+            margin-top: 15px;
+            margin-bottom: 80px;
+            margin-left: 15px;
+        }
+
+        .quick > img{
+            margin-left: 20px;
+            width: 330px;
+        }
+        .quick > div > h1{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .quick > div > p{
+            text-align: center;
+            padding: 0px 20px;
+        }
+
+        .access{
+            margin-top: 200px;
+        }
+        .access > h1{
+            text-align: center;
+            padding: 0px 50px;
+        }
+        .access > p{
+            text-align: center;
+            padding: 0px 20px;
+            margin-bottom: 80px;
+        }
+        .access > img{
+            width: 350px;
+            margin: 0px 10px;
+        }
+
+        .super > h1{
+            text-align: center;
+            padding: 0px 50px;
+            margin-top: 80px;
+        }
+        .super > p{
+            text-align: center;
+            padding: 0px 20px;
+            margin-bottom: 80px;
+        }
+
+        .informacoes > div:nth-child(3){
+            padding-bottom: 100px;
+        }
+        .informacoes > div > img{
+            margin-left: 170px;
+            margin-bottom: 20px;
+        }
+        .informacoes > div > h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .informacoes > div > p{
+            text-align: center;
+            padding: 0px 10px;
+            margin-bottom: 60px;
+        }
+
+        .imagens > img{
+            display: block;
+            margin-bottom: 70px;
+        }
+        .imagens > img:nth-child(1){
+            margin-left: 100px;
+        }
+        .imagens > img:nth-child(2){
+            margin-left: 115px;
+        }
+        .imagens > img:nth-child(3){
+            margin-left: 105px;
+        }
+        .imagens > img:nth-child(4){
+            margin-left: 120px;
+        }
+        .imagens > img:nth-child(5){
+            margin-left: 125px;
+            margin-bottom: 200px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="fundo">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images\bg-header-desktop.png">
+                <img src="images/bg-header-mobile.png">
+            </picture>
+        </div>
+        <section class="historia">
+            <img src="images/logo.svg">
+            <h1>A history of everything you copy</h1>
+            <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+            <button class="botao1">Download for iOS</button>
+            <button class="botao2">Download for Mac</button>
+        </section>
+        <section class="track">
+            <h1>Keep track of your snippets</h1>
+            <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+        </section>
+        <section class="quick">
+            <img src="images/image-computer.png" alt="">
+            <div>
+                <h1>Quick Search</h1>
+                <p>Easily search your snippets by content, category, web address, application, and more.</p>
+            </div>
+            <div>
+                <h1>iCloud Sync</h1>
+                <p>Instantly saves and syncs snippets across all your devices.</p>
+            </div>
+            <div>
+                <h1>Complete History</h1>
+                <p>Retrieve any snippets from the first moment you started using the app.</p>
+            </div>
+        </section>
+        
+        <section class="access">
+            <h1>Access Clipboard anywhere</h1>
+            <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+            <img src="images/image-devices.png" alt="">
+        </section>
+        <section class="super">
+            <h1>Supercharge your workflow</h1>
+            <p>We’ve got the tools to boost your productivity.</p>
+        </section>
+        <sectioin class="informacoes">
+            <div>
+                <img src="images/icon-blacklist.svg" alt="">
+                <h1>Create blacklists</h1>
+                <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+            </div>
+            <div>
+                <img src="images/icon-text.svg" alt="">
+                <h1>Plain text snippets</h1>
+                <p>Remove unwanted formatting from copied text for a consistent look.</p>
+            </div>
+            <div>
+                <img src="images/icon-preview.svg" alt="">
+                <h1>Sneak preview</h1>
+                <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+            </div>
+        </sectioin>
+        <section class="imagens">
+            <img src="images/logo-google.png" alt="">
+            <img src="images/logo-ibm.png" alt="">
+            <img src="images/logo-microsoft.png" alt="">
+            <img src="images/logo-hp.png" alt="">
+            <img src="images/logo-vector-graphics.png" alt="">
+        </section>
+        <section>
+            <h1>Clipboard for iOS and Mac OS</h1>
+            <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+            <button>Download for iOS</button>
+            <button>Download for Mac</button>
+        </section>
+        <section>
+            <ul>
+                <li>FAQs</li>
+                <li>Contact Us</li>
+                <li>Privacy Policy</li>
+                <li>Press Kit</li>
+                <li>Install Guide</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
