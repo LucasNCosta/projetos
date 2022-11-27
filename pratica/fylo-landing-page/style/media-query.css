@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@media screen and (min-width: 1000px){
+    main{
+        width: 1000px;
+        height: 2000px;
+    }
+    .header > img{
+        margin: 50px;
+    }
+    .header > nav{
+        top: 55px;
+        left: 750px;
+    }
+
+    .files > img{
+        float: right;
+        margin-right: 20px;
+        width: 400px;
+    }
+    .files > h1{
+        text-align: left;
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 380px;
+    }
+    .files > p{
+        margin-left: 50px;
+        text-align: left;
+        width: 900px;
+    }
+    .files > form > input{
+        display: inline-block;
+        margin-left: 50px;
+        width: 260px;
+    }
+    .files > form > input:nth-child(2){
+        display: inline-block;
+        width: 150px;
+        margin: 0;
+    }
+
+    .fundo{
+        top: 650px;
+        width: 1000px;
+    }
+    .fundo > picture > img{
+        width: 100%;
+    }
+
+    .social{
+        top: 700px;
+        height: 700px;
+    }
+    .social > img{
+        position: relative;
+        float: right;
+        width: 500px;
+        top: 100px;
+    }
+    .social > h1{
+        text-align: left;
+        margin-left: 50px;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+    .social > p{
+        margin-left: 50px;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    .social > button{
+        left: 130px;
+        margin-top: 0px;
+    }
+
+    .quotes{
+        top: 1060px;
+        left: 200px;
+    }
+
+    .access{
+        width: 100%;
+        top: 1400px;
+    }
+    .access > h1{
+        text-align: left;
+        margin-left: 50px;
+    }
+    .access > p{
+        text-align: left;
+        margin-left: 25px;
+        width: 500px;
+    }
+    .access > form > input{
+        width: 400px;
+        margin: 0;
+        margin-top: -80px;
+        margin-left: 550px;
+        margin-bottom: 20px;
+    }
+    .access > form > .button{
+        width: 200px;
+        margin: 0;
+        margin-left: 550px;
+    }
+
+    .footer{
+        top: 1680px;
+        height: 330px;
+    }
+    .footer > img{
+        margin: 0px 20px 0px 30px;
+    }
+    .footer > .lista1{
+        margin-top: -62px;
+        margin-left: 350px;
+    }
+    .footer > .lista2{
+        margin-top: -162px;
+        margin-left: 550px;
+    }
+
+    .icones{
+        margin-top: -150px;
+        margin-left: 300px;
+    }
+}
