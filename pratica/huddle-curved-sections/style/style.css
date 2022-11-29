@@ -93,7 +93,7 @@ header > button:hover{
     position: relative;
     width: 30px;
     margin-top: 60px;
-    left: 30%;
+    left: 120px;
 }
 .status > asside > h1{
     font-size: 3.4em;
@@ -275,7 +275,7 @@ footer > .icones{
     top: 30px;
     left: 20px;
     height: 50px;
-    width: 120px;
+    width: 140px;
 }
 .icones > div:hover{
     fill: rgb(0, 174, 255);

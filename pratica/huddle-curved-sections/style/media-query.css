@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@media screen and (min-width:1000px) {
+    header, main, footer{
+        width: 1000px;
+    }
+
+    .build > h1{
+        font-size: 2em;
+    }
+    .build > p{
+        padding-left: 260px;
+        padding-right: 260px;
+    }
+
+    .status > img{
+        width: 700px;
+    }
+    .status > asside{
+        display: inline-block;
+    }
+    .status > asside:nth-child(2){
+        position: relative;
+        top: 170px;
+        left: -550px;
+    }
+    .status > asside:nth-child(2) > img{
+        margin-left: -100px;
+    }
+    .status > asside:nth-child(3){
+        position: relative;
+        top: -18px;
+        left: 500px;
+    }
+
+    main > div:nth-child(3) > picture > img{
+        width: 100%;
+    }
+
+    .grow{
+        margin-bottom: -5px;
+    }
+    .grow > img{
+        position: relative;
+        left: 750px;
+        padding-bottom: 0px;
+    }
+    .grow > h1{
+        display: inline-block;
+        position: relative;
+        top: -230px;
+        left: -280px;
+    }
+    .grow > p{
+        width: 500px;
+        text-align: left;
+        display: inline-block;
+        position: relative;
+        top: -220px;
+        left: 40px;
+        padding-bottom: 0px;
+    }
+
+    main > div:nth-child(5) > picture > img{
+        width: 100%;
+    }
+
+    .flowing > img{
+        position: relative;
+        left: 200px;
+        margin-bottom: 0px;
+    }
+    .flowing > h1{
+        position: relative;
+        display: inline-block;
+        top: -250px;
+        left: 100px;
+    }
+    .flowing > p{
+        position: relative;
+        display: inline-block;
+        width: 520px;
+        text-align: left;
+        top: -250px;
+        left: 410px;
+        margin-bottom: 50px;
+    }
+
+    main > div:nth-child(7) > picture > img{
+        width: 100%;
+    }
+
+    .users{
+        margin-bottom: -5px;
+    }
+    .users > img{
+        position: relative;
+        left: 700px;
+        margin-bottom: 0px;
+    }
+    .users > h1{
+        position: relative;
+        display: inline-block;
+        top: -200px;
+        left: -300px;
+    }
+    .users > p{
+        position: relative;
+        display: inline-block;
+        width: 520px;
+        text-align: left;
+        top: -110px;
+        left: -455px;
+        margin-bottom: 50px;
+    }
+
+    main > div:nth-child(9) > picture > img{
+        width: 100%;
+    }
+
+    footer{
+        height: 500px;
+        margin-top: 50px;
+    }
+    .fundo{
+        top: -110px;
+    }
+    footer > .fundo > picture > img{
+        width: 100%;
+    }
+    footer > .news{
+        display: inline-block;
+        width: 400px;
+        position: relative;
+        left: 550px;
+        top: -195px;
+    }
+    footer > .news > form > input:nth-child(1){
+        width: 200px;
+        left: 30%;
+    }
+    footer > .news > form > input:nth-child(2){
+        width: 120px;
+        margin-top: 0px;
+    }
+    footer > .lorem{
+        display: inline-block;
+        width: 400px;
+        position: relative;
+        left: -350px;
+        top: -150px;
+    }
+    footer > .icones{
+        position: relative;
+        top: -150px;
+        left: 60px;
+    }
+}
