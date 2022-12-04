@@ -8,89 +8,6 @@
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <title>Chat App</title>
     <link rel="stylesheet" href="style/style.css">
-    <style>
-        body{
-            background-color: gray;
-            position: relative;
-            width: 100vw;
-            height: 100vh;
-        }
-        main{
-            background-color: #fff;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            height: 500px;
-            width: 300px;
-            border-radius: 20px;
-            box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.203);
-        }
-
-        main > .topo{
-            background-image: linear-gradient(to right, #8838ff, #e942ff);
-            width: 280px;
-            height: 70px;
-            border-radius: 20px 20px 5px 5px;
-            margin: 10px;
-        }
-        main > .topo > .notch{
-            background-color: #fff;
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 150px;
-            height: 20px;
-            border-radius: 0px 0px 15px 15px;
-        }
-        main > .topo > span:nth-child(2){
-            position: relative;
-            top: -2px;
-            padding: 13px 5px 0px 5px;
-            margin: 0;
-            color: #fff;
-        }
-        main > .topo > img{
-            display: inline-block;
-            width: 30px;
-            border-radius: 50%;
-            border: 2px solid #fff;
-            margin: 10px 0px 0px -5px;
-        }
-        main > .topo > h1{
-            display: inline-block;
-            position: relative;
-            color: #fff;
-            top: -1rem;
-            left: 1rem;
-        }
-        main > .topo > p{
-            display: inline-block;
-            position: relative;
-            font-size: 13px;
-            color: #d89eff;
-            top: -1.7rem;
-            left: 5.1rem;
-        }
-        main > .topo > span:nth-child(6){
-            color: #fff;
-            display: inline-block;
-            position: relative;
-            top: -30px;
-            left: 140px;
-        }
-
-        main > .tela{
-            background-color: #f5f3f7;
-            z-index: -1;
-            position: relative;
-            top: -13px;
-            left: 11px;
-            width: 279px;
-            height: 413px;
-            border-radius: 0px 0px 20px 20px;
-        }
-    </style>
 </head>
 <body>
     <main>
@@ -109,8 +26,51 @@
         </div>
 
         <div class="tela">
-
+            <div class="sms1">
+                <p>That sounds great. I'd be happy to discuss more.</p>
+            </div>
+            <div class="sms2">
+                <p>Could you send over some pictures of your dog please?</p>
+            </div>
+            <div class="dogs">
+                <img src="images/dog-image-3.jpg">
+                <img src="images/dog-image-2.jpg">
+                <img src="images/dog-image-1.jpg">
+            </div>
+            <div class="sms3">
+                <p>Here are a few pictures. She's a happy girl!</p>
+            </div>
+            <div class="sms4">
+                <p>Can you make it?</p>
+            </div>
+            <div class="sms5">
+                <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+            </div>
+            <div class="preco1">
+                <label for="ipreco" class="botao">
+                    <input type="radio" name="preco" id="ipreco">
+                    30 min walk
+                    <p>$29</p>
+                </label>
+            </div>
+            <div class="preco2">
+                <label for="iradio" class="botao">
+                    <input type="radio" name="preco" id="ipreco">
+                    1 hour walk
+                    <p>$49</p>
+                </label>
+            </div>
+            <div class="texto">
+                <label for="itexto">
+                    <input type="text" name="texto" id="itexto" class="menssagem" placeholder="Type a message...">
+                    <input type="submit" value=">" class="enviar">
+                </label>
+            </div>
         </div>
     </main>
+    <div class="simple">
+        <h1>Simple booking</h1>
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+    </div>
 </body>
 </html>

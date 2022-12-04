@@ -8,6 +8,260 @@
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
 }
+
+body{
+    background-color: white;
+    position: relative;
+    height: 100vh;
+}
+main{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 540px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 20px 30px 25px rgba(0, 0, 0, 0.203);
+}
+
+main > .topo{
+    background-image: linear-gradient(to right, #8838ff, #e942ff);
+    width: 280px;
+    height: 70px;
+    border-radius: 20px 20px 5px 5px;
+    margin: 10px;
+}
+main > .topo > .notch{
+    background-color: #fff;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+main > .topo > span:nth-child(2){
+    position: relative;
+    top: -2px;
+    padding: 13px 5px 0px 5px;
+    margin: 0;
+    color: #fff;
+}
+main > .topo > img{
+    display: inline-block;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 10px 0px 0px -5px;
+}
+main > .topo > h1{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    top: -1rem;
+    left: 1rem;
+}
+main > .topo > p{
+    display: inline-block;
+    position: relative;
+    font-size: 13px;
+    color: #d89eff;
+    top: -1.7rem;
+    left: 5.1rem;
+}
+main > .topo > span:nth-child(6){
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    left: 140px;
+}
+
+main > .tela{
+    background-color: #f5f3f7;
+    z-index: -1;
+    position: relative;
+    top: -13px;
+    left: 11px;
+    width: 279px;
+    height: 453px;
+    border-radius: 0px 0px 20px 20px;
+}
+main > .tela > .sms1 > p{
+    color: #9241c8;
+    background-color: #c6cacd59;
+    width: 150px;
+    font-size: 10px;
+    position: relative;
+    top: 1rem;
+    margin: 0px 0px 0px 10px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 5px;
+}
+main > .tela > .sms2 > p{
+    color: #9241c8;
+    background-color: #c6cacd59;
+    width: 150px;
+    font-size: 10px;
+    position: relative;
+    top: 1.5rem;
+    margin: 0px 0px 0px 10px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 5px;
+}
+main > .tela > .dogs{
+    margin-right: 1rem;
+}
+main > .tela > .dogs > img{
+    width: 50px;
+    position: relative;
+    top: 3rem;
+    border-radius: 10px;
+    float: right;
+    margin-left: .5rem;
+}
+main > .tela > .sms3 >p{
+    color: #6e5d7e;
+    background-color: #fff;
+    width: 160px;
+    font-size: 10px;
+    position: absolute;
+    top: 11rem;
+    left: 7rem;
+    padding: 6px 10px 6px 6px;
+    margin: 0;
+    border-radius: 10px 10px 5px 10px;
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.102);
+}
+main > .tela > .sms4 >p{
+    color: #6e5d7e;
+    background-color: #fff;
+    width: 100px;
+    font-size: 10px;
+    position: absolute;
+    top: 13.7rem;
+    left: 10.6rem;
+    padding: 6px 10px 6px 6px;
+    margin: 0;
+    border-radius: 10px 10px 5px 10px;
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.102);
+}
+main > .tela > .sms5 > p{
+    color: #9241c8;
+    background-color: #c6cacd59;
+    width: 150px;
+    font-size: 10px;
+    position: absolute;
+    top: 16.5rem;
+    margin: 0px 0px 0px 10px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 5px;
+}
+main > .tela > .preco1{
+    background-image: linear-gradient(to left, #8838ff 50%, #e942ff);
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 20rem;
+    left: .5rem;
+    padding: 10px 0px 0px 5px;
+    border-radius: 10px 10px 10px 5px;
+}
+main > .tela > .preco1 > .botao{
+    font-size: 11px;
+    color: #f1b0ff;
+    display: flex;
+    align-items: center;
+}
+main  .tela > .preco1 > .botao > p{
+    margin-left: 3.5rem;
+    font-weight: bold;
+    color: #f5f3f7;
+}
+main > .tela > .preco2{
+    background-image: linear-gradient(to left, #8838ff 50%, #e942ff);
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 22.5rem;
+    left: .5rem;
+    padding: 10px 0px 0px 5px;
+    border-radius: 10px 10px 10px 5px;
+}
+main > .tela > .preco2 > .botao{
+    font-size: 11px;
+    color: #f1b0ff;
+    display: flex;
+    align-items: center;
+}
+main  .tela > .preco2 > .botao > p{
+    margin-left: 3.5rem;
+    font-weight: bold;
+    color: #f5f3f7;
+}
+input[type=radio]{
+    margin-right: 10px;
+    appearance: none;
+    background-color: transparent;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #e570ff;
+    border-radius: 50%;
+}
+input[type=radio]:checked{
+    background-color: #8838ff;
+}
+
+main > .tela > .texto{
+    position: absolute;
+    top: 25.5rem;
+}
+main > .tela > .texto > label > .menssagem{
+    background-color: #fff;
+    height: 2rem;
+    width: 16.5rem;
+    font-size: .7rem;
+    margin-left: .5rem;
+    padding-left: 1rem;
+    border-radius: 20px;
+    border: none;
+}
+main > .tela > .texto > label > .enviar{
+    background-color: #3e2753;
+    color: #fff;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: .3rem;
+    left: 15rem;
+}
+.enviar:hover{
+    cursor: pointer;
+}
+
+.simple{
+    position: absolute;
+    top: 42rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    text-align: center;
+}
+.simple > h1{
+    font-size: 2em;
+    color: #261833;
+    margin-bottom: 2rem;
+}
+.simple > p{
+    color: #6e5d7e;
+    line-height: 1.5rem;
+    padding: 0px 40px 4rem 40px;
+}
 /*
 ### Primary
 
