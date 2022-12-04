@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@media screen and (min-width:1000px){
+    body{
+        overflow: hidden;
+    }
+    .fundo1{
+        width: 500px;
+        border-radius: 0px 0px 250px 250px;
+        left: -50px;
+    }
+    .fundo2{
+        width: 400px;
+        border-radius: 250px 250px 0px 0px;
+        position: absolute;
+        top: 10.9rem;
+        left: 53rem;
+    }
+
+    main{
+        left: 33rem;
+    }
+    .simple{
+        top: 7rem;
+        left: 60rem;
+        text-align: left;
+        width: 450px;
+    }
+    .simple > p{
+        padding: 0;
+    }
+}
