@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --red: rgb(255, 87, 87);
+    --yellow: rgb(255, 176, 31);
+    --green: rgb(0, 189, 145);
+    --blue: rgb(17, 37, 212);
+    --circle: rgba(78, 33, 202, 0.356);
+    --button: rgb(48, 59, 90);
+    --corp: rgb(200, 199, 255);
+}
+
+body{
+    background-color: white;
+    width: 375px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.fundo{
+    display: none;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(120, 87, 255), rgb(46, 43, 233));
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px;
+}
+header > h1{
+    margin-bottom: 5px;
+    color: var(--corp);
+}
+header .pontos{
+    display: inline-block;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: var(--circle);
+}
+header > .pontos > h1{
+    color: white;
+    font-size: 35px;
+    margin-top: 20px;
+}
+header > .pontos > p{
+    color: var(--corp);
+    font-size: 12px;
+    margin-top: 5px;
+}
+header > h2{
+    font-size: 20px;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    font-weight: bold;
+}
+header > p{
+    color: var(--corp);
+    margin-bottom: 10px;
+}
+
+main{
+    display: inline-block;
+}
+main > div{
+    width: 365px;
+    margin-left: 10px;
+    height: 35px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+main > div > h1{
+    display: inline-block;
+    padding-left: 20px;
+}
+main > div > p{
+    color: black;
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+    top: -10px;
+    transform: translate(0px, -25px);
+}
+main > div > p > span{
+    font-weight: bold;
+}
+main > div > img{
+    display: inline-block;
+    top: 10px;
+    transform: translate(10px, 3px);
+}
+main > div:nth-child(1){
+    background-color: white;
+    padding-left: -5px;
+}
+main > div:nth-child(2){
+    color: var(--red);
+    background-color: rgba(255, 87, 87, 0.050);
+}
+main > div:nth-child(3){
+    color: var(--yellow);
+    background-color: rgba(255, 177, 31, 0.050);
+}
+main > div:nth-child(4){
+    color: var(--green);
+    background-color: rgba(0, 189, 145, 0.050);
+}
+main > div:nth-child(5){
+    color: var(--blue);
+    background-color: rgba(17, 36, 212, 0.050);
+}
+main > button{
+    display: block;
+    position: relative;
+    left: 10%;
+    color: white;
+    background-color: var(--button);
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+}
+main > button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, rgb(73, 52, 155), rgb(46, 43, 233));
+}
+
+@media screen and (min-width: 1000px){
+    .fundo{
+        display: block;
+        position: absolute;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.200);
+        background-color: rgba(255, 255, 255, 0);
+        height: 250px;
+        width: 520px;
+        top: 0vh;
+        left: -90%;
+    }
+    header{
+        height: 250px;
+        width: 200px;
+        border-radius: 20px;
+        margin-top: 10vh;
+        position: relative;
+        left: -20%;
+    }
+    header > p{
+        font-size: 13px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    main{
+        position: absolute;
+        top: 10vh;
+        left: 40%;
+    }
+    main > div{
+        width: 250px;
+        height: 30px;
+        padding-top: 5px;
+    }
+    main > button{
+        margin-top: 20px;
+        padding: 3px;
+        left: 15px;
+        width: 230px;
+        height: 30px;
+    }
+    main > button:hover{
+        cursor: pointer;
+        background-image: linear-gradient(to bottom, rgb(73, 52, 155), rgb(46, 43, 233));
+    }
+}
