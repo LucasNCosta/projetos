@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convite da Samya</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <div class="ftesquerda">
+    <img src="image/orquidea.jpg" alt="Img_Orquidea">
+  </div>
+
+  <header>
+    <h1>Convite Especial</h1>
+    <p>Você está convidado para uma noite inesquecível</p>
+  </header>
+
+  <div class="content">
+    <section>
+      <h2>Celebrando 15 Anos</h2>
+      <p><!-- Insira o nome da debutante aqui -->Nome da debutante</p>
+    </section>
+    <section>
+      <h2>Detalhes da Festa</h2>
+      <p><!-- Insira a data e o horário aqui -->Data: __ / __ / ____ às _:_</p>
+      <p><!-- Insira o local aqui -->Local: Nome do Espaço, Endereço</p>
+    </section>
+
+    <section>
+      <h2>Mensagem</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim.</p>
+    </section>
+
+    <section>
+      <h2>Confirmação de Presença</h2>
+      <p>Confirme sua presença até _//_</p>
+      <p><em>(Insira aqui o link para formulário de confirmação, WhatsApp ou e-mail)</em></p>
+    </section>
+
+    <button class="audio-toggle" onclick="toggleAudio()">Tocar/Pausar Música</button>
+
+  </div>
+
+  <footer>
+    <p>Esperamos por você!</p>
+  </footer> <audio id="mozart-audio" loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-floatinggarden.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio HTML5.
+  </audio>
+  <script>
+    const audio = document.getElementById('mozart-audio');
+
+    function toggleAudio() {
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    }
+  </script>
+</body>
+
+</html>
