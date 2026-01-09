@@ -18,7 +18,7 @@ html, body{
     background-color: darkgray;
 }
 header{
-    background-color: black;
+    background-color: rgb(97, 1, 68);
     color: white;
     text-align: center;
     font-family: var(--font-titulo);
